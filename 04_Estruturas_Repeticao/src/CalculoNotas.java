@@ -12,7 +12,8 @@ public class CalculoNotas {
             somaNotas += nota;
             totalNotas++;
 
-            System.out.println("Deseja continuar? (digite 's' para sair ou qualquer outra tecla para continuar)");
+            System.out.println("Deseja continuar? (digite 's' para sair ou " +
+                    "qualquer outra tecla para continuar)");
             String continua = sc.next();
 
             if(continua.equalsIgnoreCase("s")){
