@@ -3,6 +3,13 @@ public class EncappsulatedAccount {
     private String accountOwner;
     private double balance;
 
+    public EncappsulatedAccount(String accountNumber){
+        this.accountNumber = accountNumber;
+        this.accountOwner = accountOwner;
+        this.balance = balance;
+
+    }
+
     boolean deposit(double amount){
         if(amount > 0){
             balance += amount;
